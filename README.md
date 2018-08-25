@@ -1,9 +1,19 @@
 # OCNet
+
+
 We will release all of implementation in the future weeks
 
+## Abstract 
 
-All of our implementation is based on pytorch, PGCNet can achieve competitive performance on various benchmarks such as Cityscapes and ADE20K without any bells and whistles.
+Context is essential for various computer vision tasks. 
+The state-of-the-art scene parsing methods define the context as the prior of the scene categories (e.g., bathroom, badroom, street).
+Such scene context is not suitable for the street scene parsing tasks as most of the scenes are similar. 
+In this work, we propose the Object Context that captures the prior of the object's category that the pixel belongs to.
+We compute the object context by aggregating all the pixels' features according to a attention map that encodes the probability of each pixel that it belongs to the same category with the associated pixel.
 
+
+## Experiments
+All of our implementation is based on pytorch, OCNet can achieve competitive performance on various benchmarks such as Cityscapes and ADE20K without any bells and whistles.
 
 The current performance on the Cityscapes test set of OCNet trained with only the fine-labeled set,
 
