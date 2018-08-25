@@ -10,6 +10,7 @@ The current performance on the Cityscapes test set of OCNet trained with only th
 
 Method | Conference | Backbone | mIoU(\%) 
 ---- | --- | --- | --- 
+PSP |  CVPR2017  | ResNet-101  |  78.4
 PSANet |  ECCV2018  | ResNet-101  |  80.1 
 DenseASPP  |  CVPR2018  | WideDenseNet-161  |  80.6
 OCNet | - |  ResNet-101 | 81.2
@@ -20,5 +21,6 @@ The current performance on the ADE20K validation set of the OCNet
 
 Method | Conference | Backbone | mIoU(\%) 
 ---- | --- | --- | --- 
+PSP |  CVPR2017  | ResNet-101  |  43.29
 EncNet |  CVPR2018  | ResNet-101  |  44.65
 OCNet | - |  ResNet-101 | 45.08
