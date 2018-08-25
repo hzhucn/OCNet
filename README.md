@@ -5,7 +5,7 @@ We will release all of implementation in the future weeks
 All of our implementation is based on pytorch, PGCNet can achieve competitive performance on various benchmarks such as Cityscapes and ADE20K without any bells and whistles.
 
 
-The current performance on the Cityscapes test set of the OCNet trained with only the fine-labeled set,
+The current performance on the Cityscapes test set of OCNet trained with only the fine-labeled set,
 
 
 Method | Conference | Backbone | mIoU(\%) 
