@@ -30,7 +30,7 @@ DSSPN | CVPR2018  | ResNet-101  | 77.8
 PSP |  CVPR2017  | ResNet-101  |  78.4
 PSANet |  ECCV2018  | ResNet-101  |  80.1 
 DenseASPP  |  CVPR2018  | WideDenseNet-161  |  80.6
-OCNet | - |  ResNet-101 | 81.2
+**OCNet** | - |  ResNet-101 | **81.2**
 
 
 The current performance on the ADE20K validation set of the OCNet
@@ -44,4 +44,4 @@ SAC |  ICCV2017  |  ResNet-101  |  44.30
 PSANet  |  ECCV2018  |  ResNet-101  |  43.77  
 PSP |  CVPR2017  | ResNet-101  |  43.29
 EncNet |  CVPR2018  | ResNet-101  |  44.65
-OCNet | - |  ResNet-101 | 45.08
+**OCNet** | - |  ResNet-101 | **45.08**
