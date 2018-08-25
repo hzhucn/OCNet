@@ -8,6 +8,7 @@ We will release all of implementation in the future weeks
 Context is essential for various computer vision tasks. 
 The state-of-the-art scene parsing methods define the context as the prior of the scene categories (e.g., bathroom, badroom, street).
 Such scene context is not suitable for the street scene parsing tasks as most of the scenes are similar. 
+
 In this work, we propose the Object Context that captures the prior of the object's category that the pixel belongs to.
 We compute the object context by aggregating all the pixels' features according to a attention map that encodes the probability of each pixel that it belongs to the same category with the associated pixel.
 
