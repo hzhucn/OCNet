@@ -5,12 +5,15 @@ We will release all of implementation in the future weeks
 
 ## Abstract 
 
-Context is essential for various computer vision tasks. 
-The state-of-the-art scene parsing methods define the context as the prior of the scene categories (e.g., bathroom, badroom, street).
-Such scene context is not suitable for the street scene parsing tasks as most of the scenes are similar. 
+The basic goal of scene parsing is to label each pixel in an image with the category of the object it belongs to.
+The state-of-the-art methods have exploited the effectiveness of context that is defined over image-level such as the whole image or the sub-regions of multiple scales. Such context is not directly related to the goal of scene parsing.
 
-In this work, we propose the Object Context that captures the prior of the object's category that the pixel belongs to.
-We compute the object context by aggregating all the pixels' features according to a attention map that encodes the probability of each pixel that it belongs to the same category with the associated pixel.
+In this work, we propose the Object Context that captures the context in object-level.
+The representation of each pixel's object context is computed by aggregating the features of all the pixels that belong to the same category of the object that the associated pixel belongs to. 
+Especially, we employ the self-attention method to learn a pixel-wise attention map that carries the probability of each pixel that it belongs to the same category with the associated pixel.
+
+We further propose the Pyramid Object Context and Atrous Spatial Pyramid Object Context to handle the problem of multi-scales.
+Based on the object context, we propose the OCNet and show that OCNet achieves state-of-the-art performance on both Cityscapes benchmark and ADE20K benchmark.
 
 
 ## Experiments
