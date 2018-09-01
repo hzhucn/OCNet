@@ -63,7 +63,7 @@ The code is developed using python 3.5+ on Ubuntu 16.04. NVIDIA GPUs ared needed
 
 ## Docker with the enviroments
 
-rainbowsecret/pytorch04:20180719
+[rainbowsecret/pytorch04:20180719](https://hub.docker.com/r/rainbowsecret/pytorch04/tags/)
 
 
 
