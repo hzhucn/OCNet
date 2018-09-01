@@ -122,9 +122,12 @@ Please put the pretrained models under the folder "./OCNet/pretrained_model"
 
 
 ## Thanks to the Third Party Libs
-[InplaceABN](https://github.com/mapillary/inplace_abn) under the folder "./OCNet/inplace_abn".
+[InplaceABN](https://github.com/mapillary/inplace_abn)
+
 [Non-local_pytorch](https://github.com/AlexHex7/Non-local_pytorch).
-[Pytorch-Deeplab]https://github.com/speedinghzl/Pytorch-Deeplab
+
+[Pytorch-Deeplab](https://github.com/speedinghzl/Pytorch-Deeplab)
+
 [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding)
 
 
