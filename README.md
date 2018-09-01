@@ -69,6 +69,8 @@ scikit-learn
 cv2
 ~~~~
 
+
+
 ### Train/Validate/Test the OCNet 
 
 We implement training, validating, testing in one script for convenience. You can achieve all the results by runing this script.
@@ -110,6 +112,8 @@ For the cityscapes dataset, please download the dataset from the Cityscapes webs
 ```
 ## Pretrained Models
 
+Please put the pretrained models under the folder "./OCNet/pretrained_model"
+
 [ImageNet Pretrained ResNet-101](http://sceneparsing.csail.mit.edu/model/pretrained_resnet/resnet101-imagenet.pth)
 
 ## Docker with the enviroments
@@ -117,5 +121,10 @@ For the cityscapes dataset, please download the dataset from the Cityscapes webs
 [rainbowsecret/pytorch04:20180719](https://hub.docker.com/r/rainbowsecret/pytorch04/tags/)
 
 
+## Thanks to the Third Party Libs
+[InplaceABN](https://github.com/mapillary/inplace_abn) under the folder "./OCNet/inplace_abn".
+[Non-local_pytorch](https://github.com/AlexHex7/Non-local_pytorch).
+[Pytorch-Deeplab]https://github.com/speedinghzl/Pytorch-Deeplab
+[PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding)
 
 
