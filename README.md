@@ -5,15 +5,17 @@ We will release all of implementation in the future weeks
 
 ## Abstract 
 
-The basic goal of scene parsing is to label each pixel in an image with the category of the object it belongs to.
-The state-of-the-art methods have exploited the effectiveness of context that is defined over image-level such as the whole image or the sub-regions of multiple scales. Such context is not directly related to the goal of scene parsing.
+Context is essential for various computer vision tasks.
+The state-of-the-art scene parsing methods have exploited the effectiveness of the context defined over image-level.
+Such context carries the mixture of objects belonging to different categories.
 
-In this work, we propose the Object Context that captures the context in object-level.
-The representation of each pixel's object context is computed by aggregating the features of all the pixels that belong to the same category of the object that the associated pixel belongs to. 
-Especially, we employ the self-attention method to learn a pixel-wise attention map that carries the probability of each pixel that it belongs to the same category with the associated pixel.
+According to that the label of each pixel is defined as the category of the object it belongs to, we propose the Object Context that considers the objects belonging to the same category. 
+The representation of any pixel P's object context is the aggregation of all the pixels' features that belong to the same category with P.
+Since it is impractical to estimate all the objects belonging to the same category in advance,
+we employ the self-attention method to approximate the objects by learning a pixel-wise similarity map.
 
-We further propose the Pyramid Object Context and Atrous Spatial Pyramid Object Context to handle the problem of multi-scales.
-Based on the object context, we propose the OCNet and show that OCNet achieves state-of-the-art performance on both Cityscapes benchmark and ADE20K benchmark.
+We further propose the Pyramid Object Context and Atrous Spatial Pyramid Object Context to capture context of multiple scales.
+Based on the object context, we introduce the OCNet and show that OCNet achieves state-of-the-art performance on both Cityscapes benchmark and ADE20K benchmark.
 
 
 ## Experiments
