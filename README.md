@@ -81,7 +81,7 @@ sh run_asp_oc.sh
 
 You are expected to reproduce most of the results provided in our paper.
 
-To achieve the 81.2 on the testing set, you need to train the model with both the training set and validation set for 80,000 iterations first, then we need to finetune this model for 100,000 iterations. We adopt the online hard example mining accordingly.
+To achieve the 81.2 on the testing set, you need to train the model with both the training set and validation set for 80,000 iterations first, then you need to finetune this model for 100,000 iterations with fixed learning rate(1e-4). We adopt the online hard example mining accordingly.
 
 
 ## Data preparation
