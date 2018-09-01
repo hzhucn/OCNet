@@ -57,8 +57,55 @@ The code is developed using python 3.5+ on Ubuntu 16.04. NVIDIA GPUs ared needed
 
 ## Quick start
 
+### Requirements
+~~~~
+torch>=0.4
+torchvision
+tensorboardX
+pillow
+tqdm
+h5py
+scikit-learn
+cv2
+~~~~
+
+### Train the OCNet 
+
+~~~~
+sh run_asp_oc.sh
+~~~~
+
+
+
 ## Data preparation
 
+For the cityscapes dataset, please download the dataset from the Cityscapes webset. Unzip all the images under the path "./OCNet/dataset/cityscapes". Ensure the path tree like below within the folder "./OCNet/dataset/cityscapes".
+
+```
+|-- README
+|-- get_cs_extra.sh
+|-- gtCoarse
+|   |-- README
+|   |-- license.txt
+|   |-- train
+|   |-- train_extra
+|   `-- val
+|-- gtFine
+|   |-- README
+|   |-- license.txt
+|   |-- test
+|   |-- train
+|   `-- val
+|-- leftImg8bit
+|   |-- README
+|   |-- license.txt
+|   |-- test
+|   |-- train
+|   |-- train_extra
+|   `-- val
+|-- license.txt
+`-- tree.txt
+```
 ## Pretrained Models
 
 [ImageNet Pretrained ResNet-101](http://sceneparsing.csail.mit.edu/model/pretrained_resnet/resnet101-imagenet.pth)
