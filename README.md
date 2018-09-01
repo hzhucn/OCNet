@@ -18,7 +18,7 @@ We further propose the Pyramid Object Context and Atrous Spatial Pyramid Object 
 Based on the object context, we introduce the OCNet and show that OCNet achieves state-of-the-art performance on both Cityscapes benchmark and ADE20K benchmark.
 
 
-## Experiments
+## Experiment Results
 All of our implementation is based on pytorch, OCNet can achieve competitive performance on various benchmarks such as Cityscapes and ADE20K without any bells and whistles.
 
 The current performance on the Cityscapes test set of OCNet trained with only the fine-labeled set,
@@ -50,3 +50,17 @@ SAC |  ICCV2017  |  ResNet-101  |  44.30
 PSANet  |  ECCV2018  |  ResNet-101  |  43.77  
 EncNet |  CVPR2018  | ResNet-101  |  44.65
 **OCNet** | - |  ResNet-101 | **45.08**
+
+
+## Enviroment
+The code is developed using python 3.5+ on Ubuntu 16.04. NVIDIA GPUs ared needed. The code is tested using 4 NVIDIA P100 GPUS cards.
+
+## Quick start
+
+## Data preparation
+
+## Pretrained Models
+
+
+
+
