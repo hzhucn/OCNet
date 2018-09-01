@@ -61,6 +61,10 @@ The code is developed using python 3.5+ on Ubuntu 16.04. NVIDIA GPUs ared needed
 
 ## Pretrained Models
 
+## Docker with the enviroments
+
+rainbowsecret/pytorch04:20180719
+
 
 
 
