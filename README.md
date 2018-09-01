@@ -61,6 +61,8 @@ The code is developed using python 3.5+ on Ubuntu 16.04. NVIDIA GPUs ared needed
 
 ## Pretrained Models
 
+[ImageNet Pretrained ResNet-101](http://sceneparsing.csail.mit.edu/model/pretrained_resnet/resnet101-imagenet.pth)
+
 ## Docker with the enviroments
 
 [rainbowsecret/pytorch04:20180719](https://hub.docker.com/r/rainbowsecret/pytorch04/tags/)
