@@ -32,9 +32,9 @@ PSPNet |  CVPR2017  | ResNet-101  |  78.4
 DUC-HDC | WACV2018 | ResNet-101 | 77.6 
 AAF |   ECCV2018  | ResNet-101  |  77.1 
 BiSeNet |   ECCV2018  | ResNet-101  |  78.9 
+PSANet |  ECCV2018  | ResNet-101  |  80.1 
 DFN  |  CVPR2018  | ResNet-101  |  79.3 
 DSSPN | CVPR2018  | ResNet-101  | 77.8 
-PSANet |  ECCV2018  | ResNet-101  |  80.1 
 DenseASPP  |  CVPR2018  | DenseNet-161  |  80.6
 **OCNet** | - |  ResNet-101 | **81.2**
 
