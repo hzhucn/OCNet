@@ -69,7 +69,9 @@ scikit-learn
 cv2
 ~~~~
 
-### Train the OCNet 
+### Train/Validate/Test the OCNet 
+
+We implement training, validating, testing in one script for convenience. You can achieve all the results by runing this script.
 
 ~~~~
 sh run_asp_oc.sh
