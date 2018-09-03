@@ -54,7 +54,7 @@ EncNet |  CVPR2018  | ResNet-101  |  44.65
 
 ## Enviroment
 The code is developed using python 3.5+ on Ubuntu 16.04. NVIDIA GPUs ared needed. The code is tested using 4 NVIDIA P100 GPUS cards.
-All the code should run on pytorch0.3 because we find that pytorch0.4 can lead 1 point performance drop(we have not found the bug).
+All the experiments on Cityscapes should run on pytorch0.3 because we find that pytorch0.4 can lead 1 point performance drop(we have not found the bug).
 
 ## Quick start
 
