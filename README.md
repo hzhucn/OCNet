@@ -1,7 +1,7 @@
-# OCNet
+# OCNet: Object Context Network for Scene Parsing
 
-
-We will release all of implementation in the future weeks
+Please check the paper [OCNet](https://arxiv.org/pdf/1809.00916.pdf) here.
+We will release all of implementation in the future weeks.
 
 ## Introduction
 
