@@ -6,6 +6,16 @@ Please check the paper [OCNet](https://arxiv.org/pdf/1809.00916.pdf) here.
 
 You are welcome to share our work with your friends.
 
+Please consider cite our work if you find it helps you,
+```
+@article{OCNet,
+  title={OCNet: Object Context Network for Scene Parsing},
+  author={Yuhui Yuan, Jingdong Wang},
+  journal={arXiv preprint arXiv:1809.00916},
+  year={2018}
+}
+```
+
 ## Introduction
 
 Context is essential for various computer vision tasks.
@@ -130,6 +140,7 @@ Please put the pretrained models under the folder "./OCNet/pretrained_model"
 
 ## Other problems
 We find that the mIoU of the class train is unstable sometimes. For example, we run our code for 5 times, there can exist one time the mIoU for class train is 0.42 while we can get 0.75 for other 4 times.
+
 
 
 ## Thanks to the Third Party Libs
