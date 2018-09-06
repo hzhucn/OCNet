@@ -4,7 +4,7 @@
 
 Please check the paper [OCNet](https://arxiv.org/pdf/1809.00916.pdf) here.
 
-**We will release all of implementation once the star count exceeds 100**.
+**We will release all of implementation once the star count exceeds** <font color=red>100</font>.
 
 You are welcome to share our work with your friends.
 
