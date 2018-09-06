@@ -1,6 +1,6 @@
 # OCNet: Object Context Network for Scene Parsing (pytorch)
 
-![Object Context learned with OCNet](OCNet_intro.jpg?raw=true)
+![Overall Framework of OCNet](OCNet.png?raw=true)
 
 Please check the paper [OCNet](https://arxiv.org/pdf/1809.00916.pdf) here.
 
@@ -32,8 +32,9 @@ we employ the self-attention method to approximate the objects by learning a pix
 We further propose the Pyramid Object Context and Atrous Spatial Pyramid Object Context to capture context of multiple scales.
 Based on the object context, we introduce the OCNet and show that OCNet achieves state-of-the-art performance on both Cityscapes benchmark and ADE20K benchmark.
 
-![Overall Framework of OCNet](OCNet.png?raw=true)
 
+## Visualization of the learned Object Context
+![Object Context learned with OCNet](OCNet_intro.jpg?raw=true)
 
 ## Experiment Results
 All of our implementation is based on pytorch, OCNet can achieve competitive performance on various benchmarks such as Cityscapes and ADE20K without any bells and whistles.
