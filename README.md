@@ -8,7 +8,7 @@ Please check the paper [OCNet](https://arxiv.org/pdf/1809.00916.pdf) here.
 
 You are welcome to share our work with your friends.
 
-Please consider cite our work if you find it helps you,
+Please consider citing our work if you find it helps you,
 ```
 @article{OCNet,
   title={OCNet: Object Context Network for Scene Parsing},
