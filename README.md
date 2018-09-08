@@ -146,6 +146,10 @@ Please put the pretrained models under the folder "./OCNet/pretrained_model"
 ## Other problems
 We find that the mIoU of the class train is unstable sometimes. For example, we run our code for 5 times, there can exist one time the mIoU for class train is 0.42 while we can get 0.75 for other 4 times.
 
+There also exist some problems about the validation/testing set accuracy gap.
+For example, if you run the base-oc method for two times, you can achieve 79.3 and 79.8 mIou on the validation set separately while the testing mIou can be 78.55 and 77.69.
+Thus I recommend to you to run our methods for multiple times if you want to achieve good performance on the testing set while our method performs pretty robust on the validation set as the reason of the distribution gaps between the training/validation set and the testing set.
+
 
 
 ## Thanks to the Third Party Libs
